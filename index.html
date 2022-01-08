@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>C-106 Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h1>Sound Controlled Animals</h1>
+      <p>Play different sounds to find out whether it's a cat or a dog</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br />
+        <button class="btn btn-info" onclick="startClassification();">
+          START
+        </button>
+        <h4 id="result_count"></h4>
+        <h3 id="result_label">I can hear -</h3>
+
+        <img
+          id="animal_image"
+          src="milk-and-mocha-cute.gif"
+          width="300"
+          height="300"
+        />
+      </center>
+    </div>
+    <div class="copy_right_footer">By Sanaya Shetty</div>
+    <script src="main.js"></script>
+  </body>
+</html>
